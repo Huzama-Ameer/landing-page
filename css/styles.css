@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+ /******* Main Page section   *******/
 .main-page{
     height: 100vh;
     background-color: hsl(43.8, 100%, 92.7%);
@@ -58,13 +59,11 @@
   }
 
 
-  
+  /******* Information/Boxes Section ********/
   .box img {
     width: 100px;
     height: 100px;
   }
-  
-  
   .info {
       margin: 36px 0;
       text-align: center;
@@ -84,6 +83,8 @@
       max-width: 200px;
   }
 
+
+  /****** Quote Section *******/
   .quote-container{
     background-color: #E5E7Eb;
     height: 400px;
@@ -101,6 +102,9 @@
   .author{
     text-align: end;
   }
+
+
+   /******* Signup/Call to action section   **********/
   .signup-container{
     display: flex;
     justify-content: center;
