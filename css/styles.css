@@ -101,6 +101,31 @@
   .author{
     text-align: end;
   }
-  
+  .signup-container{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+  }
+  .signup-container .signup{
+    background-color: #ff6b71;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    border-radius: 12px;
+  }
+  .signup div button{
+    background-color: #ff6b71;
+    padding: 6px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+
+  footer{
+    background-color: hsl(43.8, 100%, 92.7%);
+    text-align: center;
+    padding: 20px 0;
+  }
  
  
