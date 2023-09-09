@@ -83,6 +83,24 @@
   .box {
       max-width: 200px;
   }
+
+  .quote-container{
+    background-color: #E5E7Eb;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+  }
+  .quote-container div{
+    width: 700px;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: lighter;
+    }
+  .author{
+    text-align: end;
+  }
   
  
  
