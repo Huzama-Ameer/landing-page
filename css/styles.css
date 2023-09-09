@@ -51,9 +51,38 @@
     background-color: #ff6b71;
     margin-right: 12px;
   }
-  img{
+ figure img{
     width: auto;
     height: 590px;
     margin-right: -150px;
   }
+
+
+  
+  .box img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  .info {
+      margin: 36px 0;
+      text-align: center;
+      font-size: 36px; 
+      font-weight: bolder;
+      color: hsl(317.5, 34.3%, 13.7%);;
+  }
+  
+  .box-container {
+      display: flex;
+      justify-content: center;
+      gap: 52px;
+      text-align: center;
+  }
+  
+  .box {
+      max-width: 200px;
+  }
+  
+ 
  
